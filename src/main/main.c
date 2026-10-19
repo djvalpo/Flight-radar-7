@@ -187,8 +187,8 @@ void UpdateSelectedAircraftUI(void)
     snprintf(
         buf,
         sizeof(buf),
-        "%.0f km/h",
-        a->velocity * 3.6f);
+        "%.0f mph",
+        a->velocity * 2.24f);
 
     lv_label_set_text(
         uic_LabelCraftSpeed,
